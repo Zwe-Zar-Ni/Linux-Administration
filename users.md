@@ -16,7 +16,7 @@ sudo useradd -d /home/mary -m mary
 ### List users
 
 ```bash
-ls -l /home
+cat /etc/passwd
 ```
 
 ### Creating password for user
