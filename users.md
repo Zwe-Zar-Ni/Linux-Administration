@@ -269,6 +269,7 @@ ls -l
 #### Next 9 characters (permissions): They are split into 3 groups of 3:
 
 rwx | rwx | rwx
+
 user | group | others
 
 - r = read
