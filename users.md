@@ -279,10 +279,15 @@ user | group | others
 **Examples :**
 
 - drwxrwxr-x
+
   d → directory
+  
   rwx (user) → owner can read, write, enter
+  
   rwx (group) → group can read, write, enter
+  
   r-x (others) → others can read, enter, but not write
+  
   Meaning: A shared directory, where the owner and group can modify, but others only read/enter.
 
 ---
@@ -297,19 +302,29 @@ user | group | others
 ---
 
 - -rw-r--r--
+  
   "-" → regular file
+  
   rw- (user) → owner can read and write
+  
   r-- (group) → group can read
+  
   r-- (others) → others can read
+  
   Meaning: A read-only file for everyone except the owner, who can also edit.
 
 ---
 
 - drwx------
+  
   d → directory
+  
   rwx (user) → owner has full control
+  
   --- (group) → no access
+  
   --- (others) → no access
+  
   Meaning: A private directory
 
 ---
