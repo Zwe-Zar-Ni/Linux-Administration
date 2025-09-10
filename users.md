@@ -293,10 +293,15 @@ user | group | others
 ---
 
 - drwxr-xr-x
+  
   d → directory
+  
   rwx (user) → owner can do everything
+  
   r-x (group) → group can read and enter, but not write
+  
   r-x (others) → others can read and enter, but not write
+  
   Meaning: Typical system directory, only owner can modify, others can only browse.
 
 ---
