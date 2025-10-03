@@ -27,7 +27,7 @@ jobs
 ### Go back to most recent stopped job
 
 ```bash
-fb
+fg
 # Stands for foreground
 ```
 
