@@ -1,5 +1,16 @@
 # Managing Users
 
+- Understanding the purpose of users and groups
+- Understanding when to use root
+- Creating and removing users
+- Understanding the /etc/passwd and /etc/shadow files
+- Distributing default configuration files with /etc/skel
+- Switching between users
+- Managing groups
+- Managing passwords and password policies
+- Configuring administrator access with sudo
+- Setting permissions on files and directories
+
 ## Creating and Removing Users
 
 ### Creating user using useradd
@@ -282,55 +293,55 @@ user | group | others
 - drwxrwxr-x
 
   d → directory
-  
+
   rwx (user) → owner can read, write, enter
-  
+
   rwx (group) → group can read, write, enter
-  
+
   r-x (others) → others can read, enter, but not write
-  
+
   Meaning: A shared directory, where the owner and group can modify, but others only read/enter.
 
 ---
 
 - drwxr-xr-x
-  
+
   d → directory
-  
+
   rwx (user) → owner can do everything
-  
+
   r-x (group) → group can read and enter, but not write
-  
+
   r-x (others) → others can read and enter, but not write
-  
+
   Meaning: Typical system directory, only owner can modify, others can only browse.
 
 ---
 
 - -rw-r--r--
-  
+
   "-" → regular file
-  
+
   rw- (user) → owner can read and write
-  
+
   r-- (group) → group can read
-  
+
   r-- (others) → others can read
-  
+
   Meaning: A read-only file for everyone except the owner, who can also edit.
 
 ---
 
 - drwx------
-  
+
   d → directory
-  
+
   rwx (user) → owner has full control
-  
+
   --- (group) → no access
-  
+
   --- (others) → no access
-  
+
   Meaning: A private directory
 
 ---

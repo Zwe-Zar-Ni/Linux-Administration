@@ -1,5 +1,14 @@
 # Managing Software Packages
 
+- Understanding Linux package management
+- Understanding the differences between Debian and Snap packages
+- Installing and removing software
+- Searching for packages
+- Managing package repositories
+- Backing up and restoring Debian packages
+- Cleaning up orphaned APT packages
+- Taking advantage of hardware enablement updates
+
 ## Managing Debian Packages with apt (Advanced Package Tool)
 
 ### Searching for Packages
