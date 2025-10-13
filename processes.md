@@ -1,5 +1,12 @@
 # Controlling and Managing Processes
 
+- Managing jobs
+- Understanding the ps command
+- Changing the priority of processes
+- Dealing with misbehaving processes
+- Managing system processes
+- Scheduling tasks with cron
+
 ## Managing jobs
 
 ### Stopping a process or a job
